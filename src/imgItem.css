@@ -1,0 +1,20 @@
+.item{
+    margin: 5px;
+    padding: 20px;
+    border: solid 2px black;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+
+}
+img{
+    margin-bottom: 10px;
+}
+.animal-name{
+    font-family:cursive;
+    font-size: 1.3em;
+}
+
+.description{
+    font-size: .85em;
+}
