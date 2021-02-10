@@ -4,7 +4,7 @@ import ImageItem from './ImageItem.js';
 
 export default class ImageList extends React.Component {
     render() {
-        const creatureNodes = this.props.creatureNodes.map(creature =>
+        const creatureNodes = this.props.filteredCreatures.map(creature =>
             <ImageItem
                 key={creature.title}
                 creature={creature} />

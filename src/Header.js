@@ -5,7 +5,7 @@ export default class Header extends React.Component {
     render() {
         return (
             <header className={style.header}>
-                Horned Creatures
+                <h2>Horned Creatures</h2>
             </header>
         )
     }

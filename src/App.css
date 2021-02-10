@@ -5,4 +5,8 @@
 
 select{
   margin: 5px;
+  padding: 5px;
+  background-color:rgba(71, 112, 199, .2);
+  color: rgb(71, 112, 199);
+  font-weight: bold;
 }

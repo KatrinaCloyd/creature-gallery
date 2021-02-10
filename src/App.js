@@ -41,7 +41,7 @@ export default class App extends React.Component {
             <option value="dragon">Dragon</option>
           </select>
         </form>
-        <ImageList creatureNodes={filteredCreatures} />
+        <ImageList filteredCreatures={filteredCreatures} />
       </div>
     )
   }
