@@ -13,7 +13,7 @@ const creatures = [
         title: "Rhino Family",
         description: "Mother (or father) rhino with two babies",
         keyword: "rhino",
-        horns: 2
+        horns: 6
     },
     {
         url:
@@ -53,6 +53,14 @@ const creatures = [
         title: "Baby Rhino",
         description: "This is actually a figurine but it looks kinda real",
         keyword: "rhino",
+        horns: 2
+    },
+    {
+        url:
+            "https://i.pinimg.com/originals/87/35/23/873523395a57d1afa1dafa873c664863.jpg",
+        title: "Malefi-gon",
+        description: "Bady fairy Maleficent in dragon form",
+        keyword: "dragon",
         horns: 2
     },
     {
@@ -158,6 +166,14 @@ const creatures = [
         description: "Fan illustration of Smaug from 'The Hobbit'",
         keyword: "dragon",
         horns: 100
+    },
+    {
+        url:
+            'twotusknarwhal.png',
+        title: "Faang",
+        description: "Though very rare, narwhals have been known to grow two tusks.",
+        keyword: "narwhal",
+        horns: 2
     }
 ];
 
