@@ -13,7 +13,7 @@ const creatures = [
         title: "Rhino Family",
         description: "Mother (or father) rhino with two babies",
         keyword: "rhino",
-        horns: 2
+        horns: 6
     },
     {
         url:
