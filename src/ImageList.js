@@ -4,12 +4,14 @@ import ImageItem from './ImageItem.js';
 
 export default class ImageList extends React.Component {
     render() {
+        const creatureNodes = this.props.creatureNodes.map(creature =>
+            <ImageItem
+                key={creature.title}
+                creature={creature} />
+        );
         return (
             <div className='imglist'>
-                <ImageItem />
-                <ImageItem />
-                <ImageItem />
-                <ImageItem />
+                {creatureNodes}
             </div>
         )
     }

@@ -2,17 +2,19 @@ import React from 'react';
 import './App.css';
 import Header from './Header.js';
 import ImageList from './ImageList.js';
+import creatures from './data.js';
 
 export default class App extends React.Component {
   state = {
-    url: '',
-    title: '',
-    description: '',
-    keyword: '',
-    horns: ''
+    keyword: ''
   }
   render() {
-    { console.log(this.state) };
+    const filteredCreatures = creatures.filter((creature) => {
+      if (!this.state.keyword) return true;
+      if (creature.keyword === this.state.keyword) return true;
+      return false;
+    });
+
     return (
       <div className="body">
         <Header />
@@ -33,12 +35,13 @@ export default class App extends React.Component {
             <option value="triceratops">Triceratops</option>
             <option value="markhor">Markhor</option>
             <option value="mouflon">Mouflon</option>
+            <option value="addax">Addax</option>
             <option value="chameleon">Chameleon</option>
             <option value="lizard">Lizard</option>
             <option value="dragon">Dragon</option>
           </select>
         </form>
-        <ImageList />
+        <ImageList creatureNodes={filteredCreatures} />
       </div>
     )
   }
