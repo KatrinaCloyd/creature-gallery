@@ -1,14 +1,16 @@
 .item{
-    margin: 5px;
+    margin: 10px;
     padding: 20px;
-    border: solid 2px black;
+    border: solid 1px rgb(71, 112, 199);
     width: 250px;
     display: flex;
     flex-direction: column;
-
+    border-radius: 1px 10px;
+    background-color:rgba(71, 112, 199, .1);
 }
 img{
     margin-bottom: 10px;
+    border-radius: 1px 10px;
 }
 .animal-name{
     font-family:cursive;
