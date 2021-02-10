@@ -158,6 +158,14 @@ const creatures = [
         description: "Fan illustration of Smaug from 'The Hobbit'",
         keyword: "dragon",
         horns: 100
+    },
+    {
+        url:
+            'twotusknarwhal.png',
+        title: "Faang",
+        description: "Though very rare, narwhals have been known to grow two tusks.",
+        keyword: "narwhal",
+        horns: 2
     }
 ];
 
