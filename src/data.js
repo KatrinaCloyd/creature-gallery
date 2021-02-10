@@ -57,6 +57,14 @@ const creatures = [
     },
     {
         url:
+            "https://i.pinimg.com/originals/87/35/23/873523395a57d1afa1dafa873c664863.jpg",
+        title: "Malefi-gon",
+        description: "Bady fairy Maleficent in dragon form",
+        keyword: "dragon",
+        horns: 2
+    },
+    {
+        url:
             "https://vignette.wikia.nocookie.net/landbeforetime/images/c/c3/Cera_infobox.png/revision/latest?cb=20180422005003",
         title: "Cera",
         description:
